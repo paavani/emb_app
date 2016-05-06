@@ -9,5 +9,10 @@ It will generate the
 	    add route songs
 	->installing route-test
        create tests/unit/routes/songs-test.js
+2.Route Handlers are responsible for loading model data.we can add our songs hard-coded data to the app/routes/songs.js or app/routes/index.js as the return value of the hook.
 
+	here model() function  acts as a hook.the model hook added to our songs route,handler will be called when user enters the songs route.
+
+	the model hook returns our songs array and passes it to our songs template as a model property.
+	
 
