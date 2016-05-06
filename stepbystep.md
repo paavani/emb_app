@@ -15,4 +15,7 @@ It will generate the
 
 	the model hook returns our songs array and passes it to our songs template as a model property.
 	
-
+3.Templates:
+	
+	we can use the model data to display our songs list.here we can use one of the common handlebars helper {{each}}.It will loop through each of the objects in our model. 
+	we loop through each model object and call it song.for each song we create and listing with information.
