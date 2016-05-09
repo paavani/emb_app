@@ -29,3 +29,6 @@ It will generate the
 	-->installing route-test
 		   create tests/unit/routes/bands-test.js
 
+#Define the Dataobjects in route
+
+	If model is not define yet ,we can define the objects in routes also
