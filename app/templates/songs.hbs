@@ -1,17 +1,6 @@
-<!--<h2>List of songs</h2>
-<ul>
-{{#each model as |song|}}
-<li>{{song.Title}} by {{song.Band}} ({{song.Rating}})</li>
-{{/each}}
-</ul>
--->
-<div class="container">
-  <div class="page-header">
-    <h1>Rock & Roll<small><i> with Ember.js</i></small></h1>
-  </div>
   <div class="row">
-  <div class="container col-md-6">
-    <ul class="list-group">
+  <div class="row list-wrapper">
+    <ul class="list-group songs">
       {{#each model as |song|}}
         <li class="list-group-item">{{song.Title}} by <em> {{song.Band}}</em>
         <span class="rating pull-right">{{song.Rating}}</span>
@@ -19,8 +8,4 @@
       {{/each}}
     </ul>
   </div>
-</div>
-</div>
-<div class="row">
-  {{outlet}}
-</div>
+  </div>
